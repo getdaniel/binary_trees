@@ -66,9 +66,26 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 int binary_tree_is_complete(const binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
+
+/* BST tree tasks prototypes. */
 int binary_tree_is_bst(const binary_tree_t *tree);
 bst_t *bst_insert(bst_t **tree, int value);
 bst_t *array_to_bst(int *array, size_t size);
 bst_t *bst_search(const bst_t *tree, int value);
 bst_t *bst_remove(bst_t *root, int value);
+
+/* AVL tree tasks prototypes. */
+int binary_tree_is_avl(const binary_tree_t *tree);
+
+
+
+
+
+
+
+
+
+
+
+
 #endif
