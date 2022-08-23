@@ -77,7 +77,7 @@ bst_t *bst_remove(bst_t *root, int value);
 /* AVL tree tasks prototypes. */
 int binary_tree_is_avl(const binary_tree_t *tree);
 avl_t *avl_insert(avl_t **tree, int value);
-
+avl_t *array_to_avl(int *array, size_t size);
 
 
 
